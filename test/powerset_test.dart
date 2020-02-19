@@ -14,30 +14,32 @@ void main() {
 
     test('should work for single-element sets', () {
       expect(
-          powerset(['a']),
-          equals([
-            [],
-            ['a']
-          ]));
+        powerset(['a']),
+        equals([
+          [],
+          ['a'],
+        ]),
+      );
     });
 
     test('should return the power set of a set', () {
       expect(
-          powerset([1, 2, 3]),
-          equals([
-            [],
-            [1],
-            [2],
-            [1, 2],
-            [3],
-            [1, 3],
-            [2, 3],
-            [1, 2, 3]
-          ]));
+        powerset([1, 2, 3]),
+        equals([
+          [],
+          [1],
+          [2],
+          [1, 2],
+          [3],
+          [1, 3],
+          [2, 3],
+          [1, 2, 3],
+        ]),
+      );
     });
 
     test('should work for an infinite iterable', () {
-      Iterable naturals() sync* {
+      Iterable<int> naturals() sync* {
         var n = 1;
         while (true) {
           yield n++;
@@ -45,17 +47,18 @@ void main() {
       }
 
       expect(
-          powerset(naturals()).take(8),
-          equals([
-            [],
-            [1],
-            [2],
-            [1, 2],
-            [3],
-            [1, 3],
-            [2, 3],
-            [1, 2, 3]
-          ]));
+        powerset(naturals()).take(8),
+        equals([
+          [],
+          [1],
+          [2],
+          [1, 2],
+          [3],
+          [1, 3],
+          [2, 3],
+          [1, 2, 3],
+        ]),
+      );
     });
   });
 }
