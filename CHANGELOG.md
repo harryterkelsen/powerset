@@ -1,3 +1,7 @@
+## 1.0.0
+
+- Prepare for 1.0 release.
+
 ## 0.0.2
 
 - Update to Dart 2.

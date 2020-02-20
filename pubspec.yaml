@@ -1,6 +1,7 @@
 name: powerset
-description: Generate the powerset of any iterable.
-version: 0.0.2
+description: A utility function for generating the powerset of an iterable.
+  This generates all subsequences of an iterable, even for infinite iterables.
+version: 1.0.0
 homepage: https://github.com/hterkelsen/powerset
 
 environment:
