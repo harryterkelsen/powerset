@@ -7,3 +7,6 @@ dart_task:
   - test
   - dartanalyzer: --fatal-warnings --fatal-hints lib
   - dartfmt
+
+branches:
+  only: [master]
