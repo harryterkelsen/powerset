@@ -3,6 +3,8 @@
 Generates the [power set][powerset] of an iterable. Works for infinite
 iterables.
 
+[![Build Status](https://travis-ci.org/hterkelsen/powerset.svg?branch=master)](https://travis-ci.org/hterkelsen/powerset)
+
 ## Usage
 
 A simple usage example:
