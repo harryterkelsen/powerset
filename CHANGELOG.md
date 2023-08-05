@@ -1,3 +1,7 @@
+## 1.1.0
+
+- Upgrade Dart dependency to >2.12.
+
 ## 1.0.0
 
 - Prepare for 1.0 release.
