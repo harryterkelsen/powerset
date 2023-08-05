@@ -3,7 +3,7 @@
 Generates the [power set][powerset] of an iterable. Works for infinite
 iterables.
 
-[![Build Status](https://travis-ci.org/hterkelsen/powerset.svg?branch=master)](https://travis-ci.org/hterkelsen/powerset)
+[![Build Status](https://travis-ci.org/harryterkelsen/powerset.svg?branch=master)](https://travis-ci.org/harryterkelsen/powerset)
 
 ## Usage
 
@@ -21,4 +21,4 @@ A simple usage example:
 Please file feature requests and bugs at the [issue tracker][tracker].
 
 [powerset]: https://en.wikipedia.org/wiki/Power_set
-[tracker]: http://github.com/hterkelsen/powerset/issues
+[tracker]: http://github.com/harryterkelsen/powerset/issues
